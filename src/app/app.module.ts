@@ -11,6 +11,8 @@ import { OghamSpreadComponent } from './ogham-spread/ogham-spread.component';
 import { TarrotSpreadComponent } from './tarrot-spread/tarrot-spread.component';
 import { IchingSpreadComponent } from './iching-spread/iching-spread.component';
 
+import { appRouterModule } from './app.routes';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { IchingSpreadComponent } from './iching-spread/iching-spread.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    appRouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
